@@ -4,11 +4,11 @@
 
 With yarn
 ```angular2html
-yarn add cube-decrypt-util
+yarn add cube-decrypt
 ```
 With npm
 ```angular2html
-npm install cube-decrypt-util
+npm install cube-decrypt
 ```
 
 # Usage
