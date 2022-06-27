@@ -25,7 +25,15 @@ if(!data || typeof data !== "string") {
     process.exit(1)
 }
 
-const pk = readFileSync(pkPath, "utf8")
+let pk = ''
+
+try {
+    pk = readFileSync(pkPath, "utf8")
+}catch (e) {
+    console.error("Error reading private key file!")
+    process.exit(1)
+}
+
 
 if(!pk) {
     console.error("Error reading Private Key File!")
@@ -44,9 +52,9 @@ try {
     )
 
     console.log(JSON.parse(decrypted.toString("utf8")))
-    process.exit(1)
+    process.exit(0)
 }catch (e) {
-    console.error("Something went wrong!", e)
+    console.error("Decryption error!")
     process.exit(1)
 }
 

@@ -1,15 +1,16 @@
 {
   "name": "cube-decrypt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple utility to decrypt responses from Cube APIs",
   "main": "index.js",
   "scripts": {},
   "author": "Cube",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cube-fi/cube-decrypt"
+  },
   "bin": {
     "decrypt": "./cli.js"
-  },
-  "dependencies": {
-    "crypto": "^1.0.1"
   }
 }
