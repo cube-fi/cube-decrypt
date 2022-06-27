@@ -13,5 +13,5 @@ npm install cube-decrypt-response
 
 # Usage
 ```angular2html
-    decrypt [../../path-to-private-key] [response-data] 
+decrypt [../../path-to-private-key] [response-data] 
 ```
