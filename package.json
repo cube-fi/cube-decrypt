@@ -1,0 +1,15 @@
+{
+  "name": "cube-decrypt-util",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Cube",
+  "license": "ISC",
+  "bin": {
+    "decrypt": "./cli.js"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
