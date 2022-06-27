@@ -6,7 +6,7 @@ const [,, ...args] = process.argv;
 
 let [pkPath ,data] = args;
 
-if(args.length < 2) {
+if(!Array.isArray(args) || args.length < 2) {
     console.error("Invalid args!")
     process.exit(1)
 }

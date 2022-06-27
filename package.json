@@ -1,7 +1,7 @@
 {
   "name": "cube-decrypt-util",
   "version": "0.0.1",
-  "description": "",
+  "description": "Simple utility to decrypt responses from Cube APIs",
   "main": "index.js",
   "scripts": {},
   "author": "Cube",
